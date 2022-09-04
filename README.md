@@ -1,4 +1,5 @@
-# IaC_academic_tracker
+# Deploying an AWS architecture using custom Terraform Modules
+
 # Getting Started
 
 This getting started guide will help you to deploy Infrastructure on AWS
@@ -10,11 +11,11 @@ Ensure that you have installed the following tools in your Mac or Linux or Windo
 1. [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 4. [terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
-### Create Athena AWS Profile 
+### Create an AWS Profile 
 
 Add the block below to your .aws/credentials file and change the aws_access_key_id and aws_secret_access_key with yours.
 ```shell script
-[athena]
+[profile-name]
 aws_access_key_id = XXXXXXX
 aws_secret_access_key = XXXXXXXXXXXXXXXXX
 
@@ -23,7 +24,7 @@ aws_secret_access_key = XXXXXXXXXXXXXXXXX
 ### Clone the repo
 
 ```shell script
-git clone git@github.com:chayma1205/IaC_academic_tracker.git
+git clone git@github.com:SabriSomrani/Terraform-aws-architecture.git
 ```
 
 ### Go To Your Environment 
